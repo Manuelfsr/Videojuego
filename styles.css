@@ -1,0 +1,140 @@
+body {
+    text-align: start;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;   
+    margin-top: 30px;
+    font-family:fantasy;
+}
+
+#miCanvas {
+    border: 4px solid rgb(129, 0, 127);
+    background-image: url(Fondo/arena.png); 
+}
+
+#transicion {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1320px;
+    height: 820px;
+    background-color: black;
+    opacity: 0;
+    scale : 0;
+    transition: opacity 1s ease-in-out;
+    transition: scale 1s ease-in-out;
+}
+#transicionInicial {
+    position: absolute;
+    background-image: url(Fondo/portal.jpeg);
+    left: 33px;
+    top: 33px;
+    width: 1300px;
+    height: 800px;
+    border: 1px solid red;
+    opacity: 1;
+    scale : 1;
+    transition: opacity 5s ease-in-out;
+
+}
+#papiro{
+    position: absolute;
+    background-image: url(Fondo/Papiro.png);
+    left: 33px;
+    top: 33px;
+    width: 1300px;
+    height: 800px;
+    border: 1px solid red;
+    opacity: 1;
+    scale : 1;
+    transition: opacity 5s ease-in-out; 
+}
+#botones{
+    width: auto;
+}
+button{
+    margin-top: 30px;
+    margin-right: 20px;
+    float: left;
+    font-family:fantasy;
+}
+#informacion{
+    position: absolute;
+    left: 250px;
+    top: 24px;
+    width: 600px;
+    height: 30px;
+    background-color: lightgray;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid rgb(123, 2, 2);
+    background-color: black;
+    opacity: 0;
+    transition: opacity 5s ease-in-out; 
+}
+#barraVida {
+    height: 100%;
+    background-color: rgb(123, 2, 2);
+    width: 100%;
+    border-radius: 10px;
+}
+#imagen{
+    position: absolute;
+    width: 40px;  
+    top: -3px;
+    left:  -26px;
+}
+
+#informacionGolpeo{
+    position: absolute;
+    left: 930px;
+    top: -8px;
+    width: 329px;
+    height: 30px;
+    background-color: lightgray;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 5s ease-in-out; 
+
+}
+
+#barraGolpeo{
+    height: 100%;
+    background-color: blue;
+    width: 100%;
+    transition: width 3s linear;
+    border-radius: 10px;
+}
+#espada{
+    position: absolute;
+    width: 51px;  
+    top: -17px;
+    left:  -26px;
+}
+#Cajacontador{
+float: right;
+margin-right: 400px;
+}
+#informacion_nombre{
+    position: absolute;
+    top: 117px;
+    left:  1553px;
+}
+#Cajacontador{
+    position: absolute;
+    top: 26px;
+    left:  1379px;
+}
+#controles{
+    position: absolute;
+    top: 143px;
+    left:  1379px;
+}
+#records{
+    position: absolute;
+    top: 250px;
+    left:  1379px;
+}

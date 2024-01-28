@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="videojuego.js"></script>
+    <title>Videjuego</title>
+</head>
+
+<body>
+
+    <div id="papiro"></div>
+    <div id="transicionInicial"></div>
+    <div id="transicion"></div>
+
+    <audio id="tema_principal">
+        <source src="audios/tema_principal.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="desenterrarDiamante">
+        <source src="audios/DesenterrarDiamante.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="explosion">
+        <source src="audios/explosion-6055.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="cogerDiamante">
+        <source src="audios/diamante.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="caminar">
+        <source src="audios/caminar.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="ataque">
+        <source src="audios/ataque.mp3" type="audio/mp3">
+    </audio>
+
+    <canvas id="miCanvas" width="1300" height="800"></canvas>
+
+    <div id="Cajacontador">
+        <h1>Tiempo</h1>
+        <h1 id="contador">00:00</h1>
+    </div>
+
+    <div id="controles">
+        <h1>Controles</h1>
+        <p><b>Flechas</b> para desplazarse // <b>Espacio</b> para golpear.</p>
+    </div>
+
+    <div id="records">
+        <h1>TOP 10</h1>
+        <ol id="lista_records"></ol>
+    </div>
+
+    <div id="botones">
+        <button id="Iniciarpartida">Iniciar partida</button>
+        <button id="Reinicarpartida">Reinicar partida</button>
+    </div>
+
+    <div id="informacion_nombre">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text">
+    </div>
+
+    <div id="informacion">
+        <img  id="imagen" src="Fondo/heart.png" alt="Corazón">
+        <div id="barraVida"></div>
+    </div>
+
+    <div id="informacionGolpeo">
+        <div id="barraGolpeo"></div>
+        <img id="espada" src="Fondo/espada.png" alt="espada">
+    </div>
+
+
+</body>
+
+</html>
